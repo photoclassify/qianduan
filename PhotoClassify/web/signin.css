@@ -1,0 +1,57 @@
+body{
+    width: 100%; background: url(image/mountain.jpeg) no-repeat; background-size:100% 100%;
+}
+
+.div1{
+    margin-top: 12%;
+    text-align: center;
+    width: 100%;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.content2{
+    /*margin: auto;*/
+    margin-left: 38%;
+    /*border: 1px #9C9C9C solid;*/
+    /*background-color: rgba(	207,207,207,0.3);*/
+    /*background-color: white;*/
+    width: 25%;
+    height: 75%;
+
+}
+.login-part{
+    margin-top: 10%;
+}
+.welcome{
+    font-family:"楷体";
+    color: 	white;
+    font-size: 200%;
+    /*margin-left: 8%;*/
+}
+.layui-form-items {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layui-input-inlines{
+    width: 60%;
+}
+
+.layui-input-inlinea{
+    margin-left: 48px;
+    margin-top: 0px;
+}
+
+.loginbtn{
+    margin-top: 30px;
+}
+.signup{
+    font-size: 15px;
+    color: lightgrey;
+    margin-top: 20px;
+}

@@ -1,0 +1,210 @@
+body{
+    /*width: 100%; background: url(image/simple.jpeg) no-repeat; background-size: cover;*/
+    width: 100%; background: url(image/darksky.jpeg) no-repeat; background-size: cover;
+}
+
+.div1{
+    margin-top: 15%;
+    text-align: center;
+    width: 100%;
+}
+.content2{
+    margin: auto;
+    margin-left: 35%;
+    /*border: 1px #9C9C9C solid;*/
+    /*border: 1px grey solid;*/
+    /*!*background-color: rgba(245,245,245,0.6);*!*/
+    /*background-color: rgba(181,181,181,0.4);*/
+    width: 30%;
+    height: 62%;
+
+}
+.login-part{
+    margin-top: 20%;
+    /*margin-left: -10%;*/
+    /*display: flex;*/
+    /*width: 100%;*/
+
+    /*justify-content: center;*/
+}
+.welcome{
+    font-family:"楷体";
+    color: 	black;
+    font-size: 200%;
+    /*margin-left: 8%;*/
+}
+.layui-form-items {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layui-input-inlines{
+    width: 60%;
+}
+/*.layui-form-labels{*/
+/*    font-family:"楷体";*/
+/*    color: 	black;*/
+/*    font-size: 150%;*/
+/*    margin-right: 10px;*/
+/*}*/
+.loginbtn{
+    margin-top: 30px;
+}
+.signup{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+
+/*.labelrel{*/
+/*    position: relative;*/
+/*    top: -450px;*/
+/*}*/
+/*.label{*/
+/*    font-family:"楷体";*/
+/*    font-size:70px;*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    right: 0px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.content2{*/
+/*    position: relative;*/
+/*    top: -330px;*/
+/*    left: 35%;*/
+/*}*/
+/*!*.account-part{*!*/
+/*!*    position: absolute;*!*/
+/*!*    left: 0px;*!*/
+/*!*    right: 0px;*!*/
+/*!*}*!*/
+/*.layui-form-item {*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.layui-form-label{*/
+/*    font-family:"楷体";*/
+/*    color: white;*/
+/*    font-size: 28px;*/
+/*}*/
+/*.loginbtn{*/
+/*    margin-top: 40px;*/
+/*    margin-left: 155px;*/
+/*}*/
+/*.signup{*/
+/*    font-size: 15px;*/
+/*    color: lightgrey;*/
+/*    margin-left: 125px;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/* Animation */
+/*.cb-slideshow,*/
+/*.cb-slideshow:after {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*    z-index: 0;*/
+/*}*/
+
+/*.cb-slideshow li {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*    color: transparent;*/
+/*    background-size: cover;*/
+/*    background-position: 50% 50%;*/
+/*    background-repeat: none;*/
+/*    opacity: 0;*/
+/*    z-index: 0;*/
+/*    -webkit-backface-visibility: hidden;*/
+/*    -webkit-animation: imageAnimation 72s linear infinite 0s;*/
+/*    -moz-animation: imageAnimation 72s linear infinite 0s;*/
+/*    -o-animation: imageAnimation 72s linear infinite 0s;*/
+/*    -ms-animation: imageAnimation 72s linear infinite 0s;*/
+/*    animation: imageAnimation 72s linear infinite 0s;*/
+
+/*}*/
+
+
+/*.cb-slideshow li:nth-child(1) {*/
+/*    background-image: url(image/train.jpeg)*/
+/*}*/
+/*.cb-slideshow li:nth-child(2) {*/
+/*    background-image: url(image/forest.jpeg);*/
+/*    -webkit-animation-delay: 12s;*/
+/*    -moz-animation-delay: 12s;*/
+/*    -o-animation-delay: 12s;*/
+/*    -ms-animation-delay: 12s;*/
+/*    animation-delay: 12s;*/
+/*}*/
+/*.cb-slideshow li:nth-child(3) {*/
+/*    background-image: url(image/train.jpeg);*/
+/*    -webkit-animation-delay: 24s;*/
+/*    -moz-animation-delay: 24s;*/
+/*    -o-animation-delay: 24s;*/
+/*    -ms-animation-delay: 24s;*/
+/*    animation-delay: 24s;*/
+/*}*/
+/*.cb-slideshow li:nth-child(4) {*/
+/*    background-image: url(image/forest.jpeg);*/
+/*    animation-delay: 36s;*/
+/*}*/
+/*.cb-slideshow li:nth-child(5) {*/
+/*    background-image: url(image/train.jpeg);*/
+/*    animation-delay: 48s;*/
+/*}*/
+/*.cb-slideshow li:nth-child(6) {*/
+/*    background-image: url(image/forest.jpeg);*/
+/*    animation-delay: 60s;*/
+/*}*/
+
+
+/*@keyframes imageAnimation {*/
+/*    0% {*/
+/*        opacity: 0;*/
+/*        animation-timing-function: ease-in;*/
+/*    }*/
+/*    8% {*/
+/*        opacity: 1;*/
+/*        transform: scale(1.15);*/
+/*        animation-timing-function: ease-out;*/
+/*    }*/
+/*    17% {*/
+/*        opacity: 1;*/
+/*        transform: scale(1.20);*/
+/*    }*/
+/*    25% {*/
+/*        opacity: 0;*/
+/*        transform: scale(1.40);*/
+/*    }*/
+/*    100% { opacity: 0 }*/
+/*}*/
+
+
+/*@media screen and (max-width: 1140px) {*/
+/*    .cb-slideshow li div h3 { font-size: 140px }*/
+/*}*/
+/*@media screen and (max-width: 600px) {*/
+/*    .cb-slideshow li div h3 { font-size: 80px }*/
+/*    .tm-content {*/
+/*        margin-top: 80px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 576px) {*/
+/*    .cb-slideshow li div h3 {*/
+/*        font-size: 80px*/
+/*    }*/
+
+/*    .tm-btn-subscribe {*/
+/*        margin-top: 20px;*/
+/*    }*/
+/*}*/

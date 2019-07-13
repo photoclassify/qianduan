@@ -1,0 +1,16 @@
+.container{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:20px;
+    border: 1px #E8E8E8 solid;
+}
+
+.grid{
+    -webkit-column-count:4;
+    -moz-column-count:4;
+    column-count:4;
+    -webkit-column-gap:5px;
+    -moz-column-gap:5px;
+    -column-gap:5px;
+    list-style:none;
+}
